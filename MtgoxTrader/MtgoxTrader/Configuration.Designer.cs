@@ -37,7 +37,6 @@
             this.txtSecret = new System.Windows.Forms.TextBox();
             this.lblCurrency = new System.Windows.Forms.Label();
             this.comboCurrency = new System.Windows.Forms.ComboBox();
-            this.lblExpiration = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblAPIKey
@@ -127,21 +126,11 @@
             this.comboCurrency.Size = new System.Drawing.Size(60, 21);
             this.comboCurrency.TabIndex = 8;
             // 
-            // lblExpiration
-            // 
-            this.lblExpiration.AutoSize = true;
-            this.lblExpiration.Location = new System.Drawing.Point(4, 143);
-            this.lblExpiration.Name = "lblExpiration";
-            this.lblExpiration.Size = new System.Drawing.Size(35, 13);
-            this.lblExpiration.TabIndex = 9;
-            this.lblExpiration.Text = "label1";
-            // 
             // Configure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(350, 202);
-            this.Controls.Add(this.lblExpiration);
             this.Controls.Add(this.comboCurrency);
             this.Controls.Add(this.lblCurrency);
             this.Controls.Add(this.txtSecret);
@@ -168,6 +157,5 @@
         private System.Windows.Forms.TextBox txtSecret;
         private System.Windows.Forms.Label lblCurrency;
         private System.Windows.Forms.ComboBox comboCurrency;
-        private System.Windows.Forms.Label lblExpiration;
     }
 }
