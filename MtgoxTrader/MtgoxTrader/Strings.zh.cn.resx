@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountTab" xml:space="preserve">
+    <value>账户概览</value>
+  </data>
+  <data name="AutoRefresh" xml:space="preserve">
+    <value>自动刷新</value>
+  </data>
+  <data name="AvailBtcAmount" xml:space="preserve">
+    <value>剩余BTC</value>
+  </data>
+  <data name="AvailBuyCount" xml:space="preserve">
+    <value>可买数量</value>
+  </data>
+  <data name="AvailFundAmount" xml:space="preserve">
+    <value>剩余资金</value>
+  </data>
+  <data name="AvailSellCount" xml:space="preserve">
+    <value>可卖数量</value>
+  </data>
+  <data name="Avg" xml:space="preserve">
+    <value>平均价格</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>资金余额</value>
+  </data>
+  <data name="BtcAmount" xml:space="preserve">
+    <value>Btc余额</value>
+  </data>
+  <data name="ButtonTradeTime" xml:space="preserve">
+    <value>查看该时交易</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>买入</value>
+  </data>
+  <data name="BuyAmount" xml:space="preserve">
+    <value>买入数量</value>
+  </data>
+  <data name="BuyCustomize" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="BuyPrice" xml:space="preserve">
+    <value>买入价格</value>
+  </data>
+  <data name="BuyStop" xml:space="preserve">
+    <value>市价买入</value>
+  </data>
+  <data name="CancelAction" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>成本</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>币种</value>
+  </data>
+  <data name="CurrentPrice" xml:space="preserve">
+    <value>当前价格</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>交易日期</value>
+  </data>
+  <data name="Deposit" xml:space="preserve">
+    <value>存入</value>
+  </data>
+  <data name="Expire" xml:space="preserve">
+    <value>软件已过期</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="FundAmount" xml:space="preserve">
+    <value>资金余额</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>最高价</value>
+  </data>
+  <data name="HighestPrice" xml:space="preserve">
+    <value>最高价格</value>
+  </data>
+  <data name="HistoryTab" xml:space="preserve">
+    <value>交易记录</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>交易信息</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>输入错误</value>
+  </data>
+  <data name="LabelRefreshTime" xml:space="preserve">
+    <value>刷新时间</value>
+  </data>
+  <data name="LabelTradeMinAmount" xml:space="preserve">
+    <value>显示数量大于</value>
+  </data>
+  <data name="LinkNext" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="LinkPrev" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>最低价</value>
+  </data>
+  <data name="MarketValue" xml:space="preserve">
+    <value>市值</value>
+  </data>
+  <data name="Minimized" xml:space="preserve">
+    <value>Bitcoin Trader</value>
+  </data>
+  <data name="NeweastPrice" xml:space="preserve">
+    <value>最新价格</value>
+  </data>
+  <data name="OrderAction" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="OrderAmount" xml:space="preserve">
+    <value>委托数量</value>
+  </data>
+  <data name="OrderPrice" xml:space="preserve">
+    <value>委托价格</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="OrderSucceed" xml:space="preserve">
+    <value>委托成功</value>
+  </data>
+  <data name="OrderTime" xml:space="preserve">
+    <value>下单时间</value>
+  </data>
+  <data name="OrderTotal" xml:space="preserve">
+    <value>合计金额</value>
+  </data>
+  <data name="OrderType" xml:space="preserve">
+    <value>委托类型</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>累计盈亏</value>
+  </data>
+  <data name="ProfitRate" xml:space="preserve">
+    <value>盈亏比例</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Sell" xml:space="preserve">
+    <value>卖出</value>
+  </data>
+  <data name="SellAmount" xml:space="preserve">
+    <value>卖出数量</value>
+  </data>
+  <data name="SellCustomize" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="SellPrice" xml:space="preserve">
+    <value>卖出价格</value>
+  </data>
+  <data name="SellMarket" xml:space="preserve">
+    <value>市价委托</value>
+  </data>
+  <data name="SellStopLimit" xml:space="preserve">
+    <value>限价止损</value>
+  </data>
+  <data name="SellTrailingStop" xml:space="preserve">
+    <value>移动止损</value>
+  </data>
+  <data name="SellType" xml:space="preserve">
+    <value>委托方式</value>
+  </data>
+  <data name="TickerTab" xml:space="preserve">
+    <value>买入卖出</value>
+  </data>
+  <data name="TradeAmount" xml:space="preserve">
+    <value>交易数量</value>
+  </data>
+  <data name="TradeHistoryTab" xml:space="preserve">
+    <value>盘口信息</value>
+  </data>
+  <data name="TradePrice" xml:space="preserve">
+    <value>交易价格</value>
+  </data>
+  <data name="TradeTab" xml:space="preserve">
+    <value>委托查询</value>
+  </data>
+  <data name="TradeTime" xml:space="preserve">
+    <value>交易时间</value>
+  </data>
+  <data name="TradeType" xml:space="preserve">
+    <value>交易类型</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>交易类型</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>成交金额</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>成交量</value>
+  </data>
+  <data name="WarnBuyPrice" xml:space="preserve">
+    <value>当买入价格高于</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="WarnSellPrice" xml:space="preserve">
+    <value>当卖出价格低于</value>
+  </data>
+  <data name="Withdraw" xml:space="preserve">
+    <value>取出</value>
+  </data>
+  <data name="AutoTradeNotReady" xml:space="preserve">
+    <value>对不起，此版本无自动交易策略模块</value>
+  </data>
+  <data name="TabTradeStrategy" xml:space="preserve">
+    <value>交易策略</value>
+  </data>
+  <data name="Above" xml:space="preserve">
+    <value>高于</value>
+  </data>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>已有相同的实例在运行</value>
+  </data>
+  <data name="AlwaysInFront" xml:space="preserve">
+    <value>程序置顶</value>
+  </data>
+  <data name="Below" xml:space="preserve">
+    <value>低于</value>
+  </data>
+  <data name="BuyType" xml:space="preserve">
+    <value>委托方式</value>
+  </data>
+  <data name="ConfigTitle" xml:space="preserve">
+    <value>MtGox API 设置</value>
+  </data>
+  <data name="ConfigurationError" xml:space="preserve">
+    <value>请输入MtGox API Key和MtGox API Secret</value>
+  </data>
+  <data name="ConfigurationFinished" xml:space="preserve">
+    <value>设置完成</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>联系邮箱</value>
+  </data>
+  <data name="CurrentBuyPrice" xml:space="preserve">
+    <value>当前买家价格</value>
+  </data>
+  <data name="CurrentSellPrice" xml:space="preserve">
+    <value>当前卖家价格</value>
+  </data>
+  <data name="LabelHelp" xml:space="preserve">
+    <value>此版本为内测软件，如果遇到任何问题，请联系：</value>
+  </data>
+  <data name="lblRequiredReg" xml:space="preserve">
+    <value>本软件是内测软件，您需要获得邀请注册序列号才能注册成为内测用户</value>
+  </data>
+  <data name="MachineCode" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="MarketSummaryHeadPrice" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="MenuItemClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="MenuItemShow" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>欢迎您使用MtGoxTrade软件</value>
+  </data>
+  <data name="RemainingDays" xml:space="preserve">
+    <value>此版本为内测版本，仅供试用和收集建议之用途 剩余天数： </value>
+  </data>
+  <data name="RequestSerial" xml:space="preserve">
+    <value>获取序列号</value>
+  </data>
+  <data name="SendBtcToMe" xml:space="preserve">
+    <value>如果您支持本软件，请发送bitcoin到 </value>
+  </data>
+  <data name="SerialNo" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="ShowDepth" xml:space="preserve">
+    <value>显示交易深度 </value>
+  </data>
+  <data name="SoftwareName" xml:space="preserve">
+    <value>MtGox Trader</value>
+  </data>
+  <data name="MarketSummaryHeadAmount" xml:space="preserve">
+    <value>数量（单数）</value>
+  </data>
+  <data name="MarketSummaryHeadBtcAmount" xml:space="preserve">
+    <value>累计BTC数量</value>
+  </data>
+  <data name="MarketSummaryHeadFundAmount" xml:space="preserve">
+    <value>累计金额</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="RegisterFailed" xml:space="preserve">
+    <value>注册失败，请输入正确的序列号或者联系我们</value>
+  </data>
+  <data name="RegisterSucceed" xml:space="preserve">
+    <value>注册成功，感谢您的支持!</value>
+  </data>
+  <data name="SetupWrong" xml:space="preserve">
+    <value>程序安装出错</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TradeHeadAmount" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="TradeHeadPrice" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="AboutSubMenu" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="ConfigSubMenu" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="HelpMenu" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="LanguageMenu" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguageSubMenu" xml:space="preserve">
+    <value>语言设置</value>
+  </data>
+  <data name="OptionsMenu" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="QuitSubMenu" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="LoadSettingsSubMenu" xml:space="preserve">
+    <value>载入设置</value>
+  </data>
+  <data name="SaveSettingsSubMenu" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="SettingsSaved" xml:space="preserve">
+    <value>设置已保存</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="AutomaticTrade" xml:space="preserve">
+    <value>自动交易</value>
+  </data>
+  <data name="AutoTradeBuyAmountIn10Higher" xml:space="preserve">
+    <value>当10档买单挂盘数量大于</value>
+  </data>
+  <data name="AutoTradeDailyDropHigher" xml:space="preserve">
+    <value>当今日跌幅大于</value>
+  </data>
+  <data name="AutoTradeDailyDropLower" xml:space="preserve">
+    <value>当今日跌幅小于</value>
+  </data>
+  <data name="AutoTradeDailyIncreaseHigher" xml:space="preserve">
+    <value>当今日涨幅大于</value>
+  </data>
+  <data name="AutoTradeDailyIncreaseLower" xml:space="preserve">
+    <value>当今日涨幅低于</value>
+  </data>
+  <data name="AutoTradeDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="AutoTradeFiveMinAmountPerTradeHigher" xml:space="preserve">
+    <value>当5分钟单笔成交量大于</value>
+  </data>
+  <data name="AutoTradeFiveMinDealAmountHigher" xml:space="preserve">
+    <value>当5分钟成交量大于</value>
+  </data>
+  <data name="AutoTradeFiveMinDropHigher" xml:space="preserve">
+    <value>当5分钟跌幅大于</value>
+  </data>
+  <data name="AutoTradeFiveMinIncreaseHigher" xml:space="preserve">
+    <value>当5分钟涨幅大于</value>
+  </data>
+  <data name="AutoTradeOneMinAmountPerTradeHigher" xml:space="preserve">
+    <value>当1分钟单笔成交量大于</value>
+  </data>
+  <data name="AutoTradeOneMinDealAmountHigher" xml:space="preserve">
+    <value>当1分钟成交量大于</value>
+  </data>
+  <data name="AutoTradeOneMinDropHigher" xml:space="preserve">
+    <value>当1分钟跌幅大于</value>
+  </data>
+  <data name="AutoTradeOneMinIncreaseHigher" xml:space="preserve">
+    <value>当1分钟涨幅大于</value>
+  </data>
+  <data name="AutoTradePriceHigher" xml:space="preserve">
+    <value>当价格高于</value>
+  </data>
+  <data name="AutoTradePriceLower" xml:space="preserve">
+    <value>当价格低于</value>
+  </data>
+  <data name="AutoTradeRuleCondition" xml:space="preserve">
+    <value>交易条件</value>
+  </data>
+  <data name="AutoTradeRuleExisted" xml:space="preserve">
+    <value>该交易条件已存在</value>
+  </data>
+  <data name="AutoTradeSellAmountIn10Higher" xml:space="preserve">
+    <value>当10档卖单挂盘数量大于</value>
+  </data>
+  <data name="AutoTradeSwing" xml:space="preserve">
+    <value>当振幅大于</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="WarningSound" xml:space="preserve">
+    <value>报警声音</value>
+  </data>
+  <data name="Executed" xml:space="preserve">
+    <value>已执行</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>未执行</value>
+  </data>
+</root>
